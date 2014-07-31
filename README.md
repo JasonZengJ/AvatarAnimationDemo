@@ -5,7 +5,7 @@ A great avatar animation I got from the app [Design Shots](https://itunes.apple.
 
 Animation Effects
 ===
-The GIF looks not smooth enough, so you can clone and run yourself to get a better experience.
+The GIF looks not smooth enough, so you can clone it and run to get a better experience.
 
 ###GIF
 
