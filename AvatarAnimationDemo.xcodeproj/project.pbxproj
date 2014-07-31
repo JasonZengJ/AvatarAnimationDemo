@@ -9,9 +9,18 @@
 /* Begin PBXBuildFile section */
 		962520211984F30700427490 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962520201984F30700427490 /* AppDelegate.swift */; };
 		962520231984F30700427490 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962520221984F30700427490 /* ViewController.swift */; };
-		962520261984F30700427490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962520241984F30700427490 /* Main.storyboard */; };
 		962520281984F30700427490 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962520271984F30700427490 /* Images.xcassets */; };
 		962520341984F30700427490 /* AvatarAnimationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962520331984F30700427490 /* AvatarAnimationDemoTests.swift */; };
+		9625203E1984F41B00427490 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625203D1984F41B00427490 /* UIColor+Extension.swift */; };
+		962520401984F43800427490 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625203F1984F43800427490 /* UIView+Extension.swift */; };
+		96252042198550DB00427490 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96252041198550DB00427490 /* Constants.swift */; };
+		96C7A034198A0C3000FCADB6 /* back_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C7A033198A0C3000FCADB6 /* back_white@2x.png */; };
+		96C7A036198A0C3800FCADB6 /* cutmypic.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C7A035198A0C3800FCADB6 /* cutmypic.png */; };
+		96C7A038198A0C4400FCADB6 /* demo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C7A037198A0C4400FCADB6 /* demo2.png */; };
+		96C7A03A198A0C4900FCADB6 /* demo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C7A039198A0C4900FCADB6 /* demo1.png */; };
+		96C7A03C198A0E8B00FCADB6 /* PropTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C7A03B198A0E8B00FCADB6 /* PropTableViewCell.swift */; };
+		96C7A03E198A0FE300FCADB6 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C7A03D198A0FE300FCADB6 /* InfoViewController.swift */; };
+		96C7A042198A23B000FCADB6 /* UIImage+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C7A041198A23B000FCADB6 /* UIImage+Custom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,11 +38,22 @@
 		9625201F1984F30700427490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		962520201984F30700427490 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		962520221984F30700427490 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		962520251984F30700427490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		962520271984F30700427490 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9625202D1984F30700427490 /* AvatarAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvatarAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		962520321984F30700427490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		962520331984F30700427490 /* AvatarAnimationDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarAnimationDemoTests.swift; sourceTree = "<group>"; };
+		9625203D1984F41B00427490 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		9625203F1984F43800427490 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		96252041198550DB00427490 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		96C7A033198A0C3000FCADB6 /* back_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_white@2x.png"; sourceTree = "<group>"; };
+		96C7A035198A0C3800FCADB6 /* cutmypic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cutmypic.png; sourceTree = "<group>"; };
+		96C7A037198A0C4400FCADB6 /* demo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo2.png; sourceTree = "<group>"; };
+		96C7A039198A0C4900FCADB6 /* demo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo1.png; sourceTree = "<group>"; };
+		96C7A03B198A0E8B00FCADB6 /* PropTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropTableViewCell.swift; sourceTree = "<group>"; };
+		96C7A03D198A0FE300FCADB6 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		96C7A03F198A23B000FCADB6 /* AvatarAnimationDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AvatarAnimationDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		96C7A040198A23B000FCADB6 /* UIImage+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Custom.h"; sourceTree = "<group>"; };
+		96C7A041198A23B000FCADB6 /* UIImage+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Custom.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,11 +95,22 @@
 		9625201D1984F30700427490 /* AvatarAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				96C7A039198A0C4900FCADB6 /* demo1.png */,
+				96C7A037198A0C4400FCADB6 /* demo2.png */,
+				96C7A035198A0C3800FCADB6 /* cutmypic.png */,
+				96C7A033198A0C3000FCADB6 /* back_white@2x.png */,
+				9625203D1984F41B00427490 /* UIColor+Extension.swift */,
+				9625203F1984F43800427490 /* UIView+Extension.swift */,
 				962520201984F30700427490 /* AppDelegate.swift */,
 				962520221984F30700427490 /* ViewController.swift */,
-				962520241984F30700427490 /* Main.storyboard */,
+				96C7A03D198A0FE300FCADB6 /* InfoViewController.swift */,
+				96C7A03B198A0E8B00FCADB6 /* PropTableViewCell.swift */,
+				96252041198550DB00427490 /* Constants.swift */,
+				96C7A040198A23B000FCADB6 /* UIImage+Custom.h */,
+				96C7A041198A23B000FCADB6 /* UIImage+Custom.m */,
 				962520271984F30700427490 /* Images.xcassets */,
 				9625201E1984F30700427490 /* Supporting Files */,
+				96C7A03F198A23B000FCADB6 /* AvatarAnimationDemo-Bridging-Header.h */,
 			);
 			path = AvatarAnimationDemo;
 			sourceTree = "<group>";
@@ -189,8 +220,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				962520261984F30700427490 /* Main.storyboard in Resources */,
+				96C7A036198A0C3800FCADB6 /* cutmypic.png in Resources */,
 				962520281984F30700427490 /* Images.xcassets in Resources */,
+				96C7A034198A0C3000FCADB6 /* back_white@2x.png in Resources */,
+				96C7A038198A0C4400FCADB6 /* demo2.png in Resources */,
+				96C7A03A198A0C4900FCADB6 /* demo1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +242,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96252042198550DB00427490 /* Constants.swift in Sources */,
+				9625203E1984F41B00427490 /* UIColor+Extension.swift in Sources */,
+				96C7A042198A23B000FCADB6 /* UIImage+Custom.m in Sources */,
+				96C7A03C198A0E8B00FCADB6 /* PropTableViewCell.swift in Sources */,
+				96C7A03E198A0FE300FCADB6 /* InfoViewController.swift in Sources */,
 				962520231984F30700427490 /* ViewController.swift in Sources */,
+				962520401984F43800427490 /* UIView+Extension.swift in Sources */,
 				962520211984F30700427490 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,17 +270,6 @@
 			targetProxy = 9625202E1984F30700427490 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		962520241984F30700427490 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				962520251984F30700427490 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		962520351984F30700427490 /* Debug */ = {
@@ -325,9 +354,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AvatarAnimationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AvatarAnimationDemo/AvatarAnimationDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -336,9 +368,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AvatarAnimationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AvatarAnimationDemo/AvatarAnimationDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -395,6 +429,7 @@
 				962520391984F30700427490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9625203A1984F30700427490 /* Build configuration list for PBXNativeTarget "AvatarAnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +438,7 @@
 				9625203C1984F30700427490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
